@@ -1,0 +1,49 @@
+webview {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#dummy-workaround {
+  background-color: #fff;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  position: fixed;
+  display: none;
+}
+webview .mini-bar.headroom--unpinned, webview .mini-bar.headroom--top {
+    -webkit-transform: none!important;
+    -ms-transform: none!important;
+	transform: none!important;
+    position: fixed!important;
+}
+h1.entry-title {
+font-size:38px!important;
+color:#000!important;
+font-family:'Crimson Text', Georgia, serif;
+font-style:italic;
+}
+
+.hero-wrapper {
+background:none!important;
+}
+
+.site-header-bg {
+background:#fff!important;
+opacity:1!important;
+}
+
+.content-area {
+width:100%!important;
+}
+
+header,.widget-area {
+display:none!important;
+}
+
+.hero-cats,.hero-date,#review-statistics,.affiliate-button,.entry-meta,.author-profile,.share-comment,#comments,.post-navigation,#colophon,.mini-bar {
+display:none;
+}
+
+

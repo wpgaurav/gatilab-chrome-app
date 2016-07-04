@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "GATILAB",
+  "description": "The chrome app for gatilab.com. Supports online & offline cache modes. Better appearance for all sort of devices.",
+  "author": "Gaurav Tiwari",
+  "minimum_chrome_version": "36.0",
+  "version": "0.9.9",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png",
+    "256": "icon_256.png",
+    "512": "icon_512.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "permissions": [
+    "notifications",
+    "webview"
+  ]
+}
